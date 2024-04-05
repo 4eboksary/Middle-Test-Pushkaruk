@@ -1,5 +1,5 @@
 import pytest
-from script import read_file, write_file
+from script import read_file
 
 @pytest.fixture
 
