@@ -4,7 +4,8 @@ def read_file(filename):
 
 def write_file(filename, lines):
     with open(filename, 'w') as file:
-        file.writelines(lines)
+        for line in lines:
+            file.write(line + '\n')
 
 def main():
     file1 = "file1.txt"
